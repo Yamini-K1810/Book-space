@@ -1,0 +1,44 @@
+<?php
+include 'includes/header.php';
+include 'config/db.php';
+
+if ($_SESSION['role'] !== 'user') {
+    header("Location: dashboard.php");
+    exit;
+}
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $book_id = $_POST['book_id'];
+    $user_id = $_SESSION['user_id'];
+
+    $sql = "INSERT INTO borrow_records (user_id, book_id, borrow_date, status) 
+            VALUES ($user_id, $book_id, CURDATE(), 'borrowed')";
+    $update = "UPDATE books SET available = FALSE WHERE id = $book_id";
+
+    if ($conn->query($sql) && $conn->query($update)) {
+        $success = "Book borrowed successfully.";
+    } else {
+        $error = "Error: " . $conn->error;
+    }
+}
+
+$sql = "SELECT * FROM books WHERE available = TRUE";
+$result = $conn->query($sql);
+?>
+
+<h2>Borrow a Book</h2>
+<?php if (isset($success)) echo "<p>$success</p>"; ?>
+<?php if (isset($error)) echo "<p>$error</p>"; ?>
+<form method="POST">
+    <select name="book_id" required>
+        <option value="">Select a Book</option>
+        <?php while ($row = $result->fetch_assoc()): ?>
+        <option value="<?php echo $row['id']; ?>">
+            <?php echo $row['title'] . " by " . $row['author']; ?>
+        </option>
+        <?php endwhile; ?>
+    </select>
+    <button type="submit">Borrow</button>
+</form>
+
+<?php include 'includes/footer.php'; ?>
