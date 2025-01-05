@@ -1,0 +1,227 @@
+/* assets/css/style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .user-info p {
+    margin-right: 10px;
+}
+
+.navbar .btn {
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #4CAF50;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.navbar .btn:hover {
+    background-color: #45a049;
+}
+
+/* Main container for dashboard */
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    color: #4CAF50;
+}
+
+/* Content Area */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+/* Book List */
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.book-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+}
+
+.book-item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.book-item button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.book-item button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* assets/css/style.css */
+
+/* General layout and styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.user-info {
+    float: right;
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.book-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-item h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.book-item p {
+    font-size: 16px;
+}
+
+.book-item .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.book-item .btn:disabled {
+    background-color: #ccc;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
