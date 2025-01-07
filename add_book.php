@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <footer>
-        <p>&copy; 2024 Library Management System</p>
+        <p>&copy; 2025 Library Management System</p>
     </footer>
 </body>
 </html>
