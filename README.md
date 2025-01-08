@@ -25,19 +25,26 @@ The Library Management System (LMS) is an open-source project designed to stream
 ---
 
 ## **Technical Stack**
-- **Backend**: Python
-- **Storage**: SQL
-- **Collaboration**: GitHub repository and pull requests
-- **Frontend**: HTML/CSS for user interface
+- **Backend**: Php
+- **Storage**: SQL,Xampp server
+- **Collaboration**: GitHub repository and pull requests.
+- **Frontend**: HTML,CSS &JS for user interface,Php for integrating the backend
 
 ---
 
 ## **Getting Started**
 
 ### **Prerequisites**
-- Python 3.x (LTS)installed
+- Javascript ES7
+- Php
+- Mongodb
+- Xampp server
 
 ### **Setup**
 1. Clone the repository:
    ```bash
    git clone https://github.com/Yamini-K1810/LibraryManagementSystemSample.git
+2. Start Xampp server:
+   ```bash cd /opt/lampp/lampp start
+
+   
