@@ -41,13 +41,14 @@ The Library Management System (LMS) is an open-source project designed to stream
 - Xampp server
 ### **Collaborator**
 #### **Team Members**
--Project Lead -Yamini K
--Feature developers -Bhoomika KJ
-                    -Sakshi RK
-                    -Sneha
-                    -Darshan
--Documentation Lead: -Sasumana Kushal
--Code Reviewer: Sangeetha E
+   -Project Lead : Yamini K
+   -Feature developers 
+      -Bhoomika KJ
+      -Sakshi RK
+      -Sneha
+      -Darshan
+   -Documentation Lead: Sasumana Kushal
+   -Code Reviewer: Sangeetha E
 #### **Contributions**
 - Project Lead: Managed and maintained the repository and the activity,co ordinated with all members.
 - Developers:
