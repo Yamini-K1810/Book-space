@@ -43,10 +43,10 @@ The Library Management System (LMS) is an open-source project designed to stream
 #### **Team Members**
 - Project Lead : Yamini K
 - Feature developers 
-  -Bhoomika KJ
-  -Sakshi RK
-  -Sneha
-  -Darshan
+  - Bhoomika KJ
+  - Sakshi RK
+  - Sneha
+  - Darshan
 - Documentation Lead: Sasumana Kushal
 - Code Reviewer: Sangeetha E
 #### **Contributions**
