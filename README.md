@@ -39,12 +39,38 @@ The Library Management System (LMS) is an open-source project designed to stream
 - Php
 - Mongodb
 - Xampp server
+### **Collaborator**
+#### **Team Members**
+-Project Lead -Yamini K
+-Feature developers -Bhoomika KJ
+                    -Sakshi RK
+                    -Sneha
+                    -Darshan
+-Documentation Lead: -Sasumana Kushal
+-Code Reviewer: Sangeetha E
+#### **Contributions**
+- Project Lead: Managed and maintained the repository and the activity,co ordinated with all members.
+- Developers:
+   - Back end developed and managed by
+     -Bhoomika KJ
+     -Sakshi RK
+   - Front end developed and managed by 
+      -Sneha
+      -Darshan
+ - Documentation Lead:
+    - Documented the repository by interacting with Project Lead and Developers and added steps to setup the project in Readme.md file.
+      
+ - Reviewer:
+    - Reviewed all the pull requests and revisted the changes made to repository. 
+
+
 
 ### **Setup**
 1. Clone the repository:
    ```bash
    git clone https://github.com/Yamini-K1810/LibraryManagementSystemSample.git
 2. Start Xampp server:
-   ```bash cd /opt/lampp/lampp start
+   ```bash
+   cd /opt/lampp/lampp start
 
    
